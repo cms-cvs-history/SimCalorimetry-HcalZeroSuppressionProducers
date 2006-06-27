@@ -1,0 +1,8 @@
+module hbhezs = HcalSimpleAmplitudeZS {
+  int32 level=2
+  int32 firstSample=4
+  int32 samplesToAdd=4
+  bool twoSided=false
+  string digiLabel="hcaldigi"
+  string Subdetector="HBHE"
+}
