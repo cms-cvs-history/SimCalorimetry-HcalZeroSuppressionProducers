@@ -3,6 +3,6 @@ module hozs = HcalSimpleAmplitudeZS {
   int32 firstSample=4
   int32 samplesToAdd=4
   bool twoSided=false
-  string digiLabel="hcaldigi"
+  string digiLabel="hcalDigis"
   string Subdetector="HO"
 }
