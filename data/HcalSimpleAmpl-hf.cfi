@@ -3,6 +3,6 @@ module hfZeroSuppressedDigis = HcalSimpleAmplitudeZS {
   int32 firstSample=4
   int32 samplesToAdd=1
   bool twoSided=false
-  InputTag digiLabel=hcalDigi
+  InputTag digiLabel=hcalDigis
   string Subdetector="HF"
 }
