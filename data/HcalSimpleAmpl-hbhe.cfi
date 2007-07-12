@@ -1,4 +1,5 @@
 module hbheZeroSuppressedDigis = HcalSimpleAmplitudeZS {
+  bool triggerOR=false
   int32 level=2
   int32 firstSample=4
   int32 samplesToAdd=2
