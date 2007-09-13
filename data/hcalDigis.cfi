@@ -1,0 +1,25 @@
+module hcalDigis = HcalSimpleAmplitudeZS {
+  InputTag digiLabel=hcalUnsuppressedDigis
+
+  PSet hbhe = {
+      int32 level=1 # conservative choice
+      int32 firstSample=4
+      int32 samplesToAdd=2
+      bool twoSided=false
+      bool triggerOR=false
+  }
+  PSet ho = {
+      int32 level=1 # conservative choice
+      int32 firstSample=4
+      int32 samplesToAdd=2
+      bool twoSided=false
+      bool triggerOR=false
+  }
+  PSet hf = {
+      int32 level=1 # conservative choice
+      int32 firstSample=3
+      int32 samplesToAdd=1
+      bool twoSided=false
+      bool triggerOR=false
+  }
+}

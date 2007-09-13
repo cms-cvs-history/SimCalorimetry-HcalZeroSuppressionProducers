@@ -1,9 +1,0 @@
-module hoZeroSuppressedDigis = HcalSimpleAmplitudeZS {
-  bool triggerOR=false
-  int32 level=2
-  int32 firstSample=4
-  int32 samplesToAdd=2
-  bool twoSided=false
-  InputTag digiLabel=hcalDigis
-  string Subdetector="HO"
-}
