@@ -6,20 +6,20 @@ module hcalDigis = HcalSimpleAmplitudeZS {
       int32 firstSample=4
       int32 samplesToAdd=2
       bool twoSided=false
-      bool triggerOR=false
+      int32 mode=2 # 0=per channel, 1=triggerOR, 2=depthOR
   }
   PSet ho = {
       int32 level=1 # conservative choice
       int32 firstSample=4
       int32 samplesToAdd=2
       bool twoSided=false
-      bool triggerOR=false
+      int32 mode=0 # 0=per channel, 1=triggerOR, 2=depthOR
   }
   PSet hf = {
       int32 level=1 # conservative choice
       int32 firstSample=3
       int32 samplesToAdd=1
       bool twoSided=false
-      bool triggerOR=false
+      int32 mode=2 # 0=per channel, 1=triggerOR, 2=depthOR
   }
 }
