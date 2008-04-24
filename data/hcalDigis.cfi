@@ -1,5 +1,5 @@
-module hcalDigis = HcalSimpleAmplitudeZS {
-  InputTag digiLabel=hcalUnsuppressedDigis
+module simHcalDigis = HcalSimpleAmplitudeZS {
+  InputTag digiLabel=simHcalUnsuppressedDigis
 
   PSet hbhe = {
       int32 level=2 # conservative choice
